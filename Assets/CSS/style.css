@@ -1,0 +1,52 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.maniDiv {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #3498db;
+}
+
+.centerDiv {
+  color: white;
+  position: absolute;
+  padding: 2rem;
+  top: 15%;
+  left: 20%;
+  text-align: center;
+  border: 1rem solid rgb(21, 21, 97);
+  border-radius: 0.5rem;
+}
+
+#btn {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 8px 35px;
+  border-radius: 20px;
+}
+
+textarea::placeholder {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1035px) {
+  .centerDiv {
+    /* background-color: red; */
+    padding: 1rem;
+    border: 0.5rem solid rgb(21, 21, 97);
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .centerDiv {
+    background-color: red;
+    border: 0.5rem solid rgb(21, 21, 97);
+    left: 2%;
+  }
+}
