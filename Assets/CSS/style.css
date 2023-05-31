@@ -89,13 +89,13 @@ textarea::placeholder {
 
 @media screen and (max-width: 455px) {
   .maniDiv h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .maniDiv h2 {
     font-size: 0.9rem;
   }
   textarea {
-    width: 210px;
+    width: 345px;
   }
   #btn {
     padding: 5px 25px;
@@ -103,18 +103,18 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 415px) {
   .centerDiv {
     border: 0.3rem solid rgb(21, 21, 97);
   }
   .maniDiv h1 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
   .maniDiv h2 {
     font-size: 0.8rem;
   }
   textarea {
-    width: 210px;
+    width: 300px;
     height: 60px;
   }
   textarea::placeholder {
@@ -127,25 +127,25 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 385px) {
   .centerDiv {
     padding: 0.5rem;
   }
   .maniDiv h1 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .maniDiv h2 {
     font-size: 0.8rem;
   }
   textarea {
-    width: 200px;
+    width: 295px;
     height: 50px;
   }
   textarea::placeholder {
     font-size: 10px;
   }
   #btn {
-    font-size: 10px;
+    font-size: 11px;
     padding: 5px 20px;
     border-radius: 20px;
   }
